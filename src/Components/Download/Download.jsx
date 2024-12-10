@@ -19,29 +19,31 @@ export default function Download() {
             <img src={img1} alt="img1" />
             <img src={img2} alt="img2" className="mx-4" />
           </div>
-          <form action="" className="flex flex-col my-8 w-full xl:w-1/2 space-y-4 ">
+          <form action="" className="flex flex-col my-8 w-full xl:w-1/2 space-y-4 items-center">
             <input
               type="text"
               placeholder="Name"
-              className="p-2 px-5  border border-indigo-200 rounded-3xl bg-indigo-200 outline-none "
+              className="p-2 px-5  border border-indigo-200 w-full rounded-3xl bg-indigo-200 outline-none "
             />
             <input
               type="phone"
               placeholder="Phone Number"
-              className="p-2 px-5  border border-indigo-200  rounded-3xl bg-indigo-200 border-none outline-none"
+              className="p-2 px-5  border border-indigo-200 w-full rounded-3xl bg-indigo-200 border-none outline-none"
             />
             <input
               type="email"
               placeholder="Email"
-              className="p-2 px-5 border border-indigo-200 rounded-3xl bg-indigo-200 border-none outline-none"
+              className="p-2 px-5 border border-indigo-200 w-full rounded-3xl bg-indigo-200 border-none outline-none"
             />
             <button
               type="submit"
-              className="p-2 bg-blue-500 w-full md:w-1/2 text-white rounded-3xl hover:bg-blue-600"
+              className="p-2 bg-blue-500 w-1/2 text-white rounded-2xl hover:bg-blue-600 "
             >
               Send
             </button>
           </form>
+        
+
         </div>
 
         {/* Right Section */}

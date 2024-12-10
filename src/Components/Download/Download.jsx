@@ -6,7 +6,7 @@ import phone from '../../assets/landing-page/sec-7/iPhone-14.png';
 
 export default function Download() {
   return (
-    <div className="my-5 px-28 container mx-auto ">
+    <div className="my-3 px-28 container mx-auto ">
         
       <div className="flex flex-col md:flex-row items-center justify-between">
         {/* Left Section */}
@@ -23,21 +23,21 @@ export default function Download() {
             <input
               type="text"
               placeholder="Name"
-              className="p-2 border border-gray-300 rounded-3xl bg-indigo-200"
+              className="p-2 px-5  border border-indigo-200 rounded-3xl bg-indigo-200 outline-none "
             />
             <input
               type="phone"
               placeholder="Phone Number"
-              className="p-2 border border-gray-300 rounded-3xl bg-indigo-200"
+              className="p-2 px-5  border border-indigo-200  rounded-3xl bg-indigo-200 border-none outline-none"
             />
             <input
               type="email"
               placeholder="Email"
-              className="p-2 border border-gray-300 rounded-3xl bg-indigo-200"
+              className="p-2 px-5 border border-indigo-200 rounded-3xl bg-indigo-200 border-none outline-none"
             />
             <button
               type="submit"
-              className="p-2  bg-blue-500 w-full md:w-1/2 text-white rounded-3xl hover:bg-blue-600"
+              className="p-2 bg-blue-500 w-full md:w-1/2 text-white rounded-3xl hover:bg-blue-600"
             >
               Send
             </button>

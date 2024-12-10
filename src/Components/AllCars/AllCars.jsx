@@ -2,12 +2,12 @@
 import { Link } from "react-router-dom";
 import GetData from "../GetData/GetData";
 import { motion } from "framer-motion";
-import { useState } from "react"; // Import useState for search term
+import { useState } from "react"; 
 
 export default function AllCars() {
-  const [searchTerm, setSearchTerm] = useState(""); // State to hold search term
+  const [searchTerm, setSearchTerm] = useState(""); 
 
-  // Handle search input change
+  
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
   };

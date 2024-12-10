@@ -6,11 +6,11 @@ import phone from '../../assets/landing-page/sec-7/iPhone-14.png';
 
 export default function Download() {
   return (
-    <div className="my-3 px-28 container mx-auto ">
+    <div className="px-4 md:px-28  container mx-auto ">
         
-      <div className="flex flex-col md:flex-row items-center justify-between">
+      <div className="flex flex-col lg:flex-row  justify-between">
         {/* Left Section */}
-        <div className="left md:w-1/2 text-center md:text-left">
+        <div className="left lg:w-1/2 text-center md:text-left ">
           <h2 className="text-4xl font-semibold text-zinc-900">
             Download Rentcars App for <span className="text-blue-500">FREE</span>
           </h2>
@@ -19,7 +19,7 @@ export default function Download() {
             <img src={img1} alt="img1" />
             <img src={img2} alt="img2" className="mx-4" />
           </div>
-          <form action="" className="flex flex-col mt-5 w-full lg:w-1/2 space-y-4">
+          <form action="" className="flex flex-col my-8 w-full xl:w-1/2 space-y-4 ">
             <input
               type="text"
               placeholder="Name"
@@ -45,7 +45,7 @@ export default function Download() {
         </div>
 
         {/* Right Section */}
-        <div className="right  md:w-1/3 flex justify-center mt-10 md:mt-60">
+        <div className="right  lg:w-1/4 flex justify-center mt-24">
           <img src={phone} alt="Phone" className="max-w-full" />
         </div>
       </div>
